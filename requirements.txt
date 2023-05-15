@@ -1,0 +1,11 @@
+pandas~=1.5.3
+numpy~=1.23.5
+nltk~=3.7
+flask~=2.2.2
+uvicorn~=0.22.0
+fastapi~=0.95.1
+tensorflow~=2.10.1
+pydantic~=1.10.7
+starlette~=0.26.1
+streamlit~=1.22.0
+requests~=2.28.1
