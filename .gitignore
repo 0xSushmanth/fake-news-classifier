@@ -490,4 +490,6 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
+.gcloudignore
+
 # End of https://www.toptal.com/developers/gitignore/api/pycharm+all,visualstudio
