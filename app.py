@@ -61,6 +61,11 @@ async def encode_text(input_text: InputText):
     return {"one_hot_vectors": one_hot_vectors.tolist()}
 
 
+@app.get('/')
+def index():
+    return "Try to use /predict endpoint"
+
+
 @app.post("/predict")
 async def predict(input_text: InputText):
     # Fit the tokenizer on the input text
@@ -89,5 +94,5 @@ async def exception_handler(request, exc):
     )
 
 
-if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+if __name__ == '__main__':
+    uvicorn.run(app, host='0.0.0.0', port=8000)
