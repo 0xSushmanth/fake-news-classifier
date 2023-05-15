@@ -5,7 +5,7 @@ import requests
 import streamlit as st
 
 # Define the API endpoint URL
-API_URL = "http://localhost:8000/predict"
+API_URL = "http://localhost:8132/predict"
 
 
 # Define a function to start the FastAPI server using subprocess
