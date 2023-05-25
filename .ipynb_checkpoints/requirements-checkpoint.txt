@@ -1,0 +1,8 @@
+fastapi
+numpy
+pydantic
+starlette
+tensorflow
+uvicorn
+xgboost
+scikit-learn

@@ -1,9 +1,9 @@
-fastapi==0.95.1
-numpy==1.23.5
-pydantic==1.10.7
-starlette==0.26.1
-tensorflow==2.10.1
-uvicorn==0.22.0
+fastapi
+numpy
+pydantic
+starlette
+tensorflow
+uvicorn
 xgboost
-sklearn
-```
+scikit-learn
+starlette
