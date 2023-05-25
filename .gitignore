@@ -491,5 +491,7 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 .gcloudignore
+.idea/
+.ipynb_checkpoints/
 
 # End of https://www.toptal.com/developers/gitignore/api/pycharm+all,visualstudio
